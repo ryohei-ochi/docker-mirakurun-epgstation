@@ -5,7 +5,8 @@
 .DS_Store
 /recorded/*
 /mirakurun/data/*
-/mirakurun/conf/*
+#/mirakurun/conf/*
+/mirakurun/softcas_linux.tar.gz
 /epgstation/custom.Dockerfile
 /epgstation/thumbnail/*.jpg
 /epgstation/data/streamfiles/*.ts
