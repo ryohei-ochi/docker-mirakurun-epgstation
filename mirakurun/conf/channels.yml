@@ -44,6 +44,7 @@
   type: BS
   channel: BS03_1
   serviceId: 103
+  isDisabled: true
 - name: WOWOWライブ
   type: BS
   channel: BS05_0
@@ -60,6 +61,7 @@
   type: BS
   channel: BS09_1
   serviceId: 200
+  isDisabled: true
 - name: TwellV
   type: BS
   channel: BS09_2
@@ -68,17 +70,18 @@
   type: BS
   channel: BS11_0
   serviceId: 241
+  isDisabled: true
 - name: 放送大学 BS1
   type: BS
-  channel: BS11_1
+  channel: BS11_2
   serviceId: 231
 - name: 放送大学 BS2
   type: BS
-  channel: BS11_1
+  channel: BS11_2
   serviceId: 232
 - name: BS釣りビジョン
   type: BS
-  channel: BS11_2
+  channel: BS11_3
   serviceId: 251
 - name: BS日テレ
   type: BS
@@ -92,11 +95,11 @@
   type: BS
   channel: BS13_2
   serviceId: 236
-- name: NHK BS1
+- name: NHK BS
   type: BS
   channel: BS15_0
   serviceId: 101
-- name: スター・チャンネル2
+- name: スター・チャンネル
   type: BS
   channel: BS15_1
   serviceId: 201
@@ -104,26 +107,28 @@
   type: BS
   channel: BS15_1
   serviceId: 202
-- name: J SPORTS 4
+  isDisabled: true
+- name: J SPORTS 1
   type: BS
   channel: BS19_0
   serviceId: 245
-- name: J SPORTS 1
+- name: J SPORTS 2
   type: BS
   channel: BS19_1
   serviceId: 242
-- name: J SPORTS 2
+- name: J SPORTS 3
   type: BS
   channel: BS19_2
   serviceId: 243
-- name: J SPORTS 3
+- name: J SPORTS 4
   type: BS
   channel: BS19_3
   serviceId: 244
-- name: シネフィルWOWOW
+- name: WOWOWプラス
   type: BS
   channel: BS21_0
   serviceId: 252
+  isDisabled: false
 - name: 日本映画専門チャンネル
   type: BS
   channel: BS21_1
@@ -136,7 +141,7 @@
   type: BS
   channel: BS23_0
   serviceId: 256
-- name: BSよしもと
+- name: よしもとチャンネル
   type: BS
   channel: BS23_1
   serviceId: 265
