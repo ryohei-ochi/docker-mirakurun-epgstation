@@ -19,10 +19,10 @@ services:
             TZ: "Asia/Tokyo"
         devices:
             - /dev/bus:/dev/bus
-            - /dev/px4video0:/dev/px4video0
-            - /dev/px4video1:/dev/px4video1
-            - /dev/px4video2:/dev/px4video2
-            - /dev/px4video3:/dev/px4video3
+            - /dev/pt1video0:/dev/pt1video0
+            - /dev/pt1video1:/dev/pt1video1
+            - /dev/pt1video2:/dev/pt1video2
+            - /dev/pt1video3:/dev/pt1video3
         restart: always
         logging:
             driver: json-file

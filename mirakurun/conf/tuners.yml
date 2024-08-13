@@ -1,30 +1,22 @@
-- name: px4video0
+- name: PT2-S1
   types:
     - BS
     - CS
-  command: recpt1 --device /dev/px4video0 <channel> - -
-  decoder: arib-b25-stream-test
+  command: recpt1 --device /dev/pt1video0 --b25 --strip <channel> - -
   isDisabled: false
-
-- name: px4video1
+- name: PT2-S2
   types:
     - BS
     - CS
-  command: recpt1 --device /dev/px4video1 <channel> - -
-  decoder: arib-b25-stream-test
+  command: recpt1 --device /dev/pt1video1 --b25 --strip <channel> - -
   isDisabled: false
-
-- name: px4video2
+- name: PT2-T1
   types:
     - GR
-  command: recpt1 --device /dev/px4video2 <channel> - -
-  decoder: arib-b25-stream-test
+  command: recpt1 --device /dev/pt1video2 --b25 --strip <channel> - -
   isDisabled: false
-
-- name: px4video3
+- name: PT2-T2
   types:
     - GR
-  command: recpt1 --device /dev/px4video3 <channel> - -
-  decoder: arib-b25-stream-test
+  command: recpt1 --device /dev/pt1video3 --b25 --strip <channel> - -
   isDisabled: false
-
